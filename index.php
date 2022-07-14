@@ -18,7 +18,7 @@
     </div>
     <div class="demo">
         <?php
-        $info = array('chino', 'chiya', 'rize', 'syaro');
+        $info = array('chino', 'chiya', 'rize', 'syaro', 'cocoa');
         $res_dir = 'rabbit_res/'.$info[array_rand($info)].'.html';
         echo file_get_contents($res_dir);
         ?>
